@@ -1,0 +1,9 @@
+[package]
+name = "ordered-float-playground"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+num-bigfloat = { version = "1.6.2", features = ["serde"] }
+ordered-float = { version = "3.7.0", features = ["serde"] }
+serde_json = "1.0.96"
